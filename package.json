@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "less": "lessc assets/less/styles.less > demos/css/style.css",
+    "http": "python -m SimpleHTTPServer 8080"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "babel-core": "5.7.4",
     "d3-scale": "^0.1.1",
     "d3-timer": "0.0.3",
+    "es6-module-loader": "^0.17.3",
     "react": "0.14.0-beta1",
     "react-dom": "0.14.0-beta1",
     "systemjs": "0.18.4"
