@@ -24,5 +24,8 @@
     "react": "0.14.0-beta1",
     "react-dom": "0.14.0-beta1",
     "systemjs": "0.18.4"
+  },
+  "devDependencies": {
+    "less": "^2.5.1"
   }
 }
