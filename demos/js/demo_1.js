@@ -30,7 +30,7 @@ function bootstrap() {
 
   let widgets = items.map((d, i) => {
     return (
-      <div className="col-md-2" key={i}>
+      <div className="col-md-3 col-sm-6 col-xs-6" key={i}>
         <PanelWidget
           name={d.name}
           followers={d.followers}
