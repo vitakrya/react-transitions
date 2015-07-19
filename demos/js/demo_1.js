@@ -1,7 +1,9 @@
 import React from 'react';
-import { PanelWidget } from './PanelWidget';
+import ReactDOM from 'react-dom';
 
-export function bootstrap() {
+import { PanelWidget } from './components/PanelWidget';
+
+function bootstrap() {
 
   let container = document.getElementById('content');
 
@@ -39,5 +41,7 @@ export function bootstrap() {
     );
   });
 
-  React.render(<div className="row">{widgets}</div>, container);
+  ReactDOM.render(<div className="row">{widgets}</div>, container);
 }
+
+bootstrap();
